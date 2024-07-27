@@ -12,7 +12,9 @@ public class VowelChecker {
 
             if (VOWELS.contains(letter)) {
                 System.out.println(letter + " is a vowel letter");
-            } else {
+            }
+            
+            else {
                 System.out.println(letter + " is a consonant letter");
             }
         }
